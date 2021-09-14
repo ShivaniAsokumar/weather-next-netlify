@@ -1,8 +1,7 @@
-import Footer from './footer';
+import Footer from './foot';
 
 export default function Layout({children}) {
   return (
-      
     <>
       <head>
         <meta charSet="utf-8" />
@@ -20,6 +19,6 @@ export default function Layout({children}) {
       <noscript>You need to enable JavaScript to run this app.</noscript>
       { children  }
       <Footer />
-  </>
+    </>
   )
 }
