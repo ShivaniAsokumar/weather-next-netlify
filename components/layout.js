@@ -2,6 +2,7 @@ import Footer from './footer';
 
 export default function Layout({children}) {
   return (
+      
     <>
       <head>
         <meta charSet="utf-8" />
