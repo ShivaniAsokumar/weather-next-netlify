@@ -46,7 +46,7 @@ class App extends Component {
 		await this.setState({ city: value });
 
 		await axios
-			.get(`http://api.openweathermap.org/data/2.5/weather?q=${this.state.city}&appid=${apiKey}&units=${units}`)
+			.get(`https://api.openweathermap.org/data/2.5/weather?q=${this.state.city}&appid=${apiKey}&units=${units}`)
 			.then((res) => {
 				// * Collecting the information for main div that has temperature, description, date, and time
 				const { data } = res;
